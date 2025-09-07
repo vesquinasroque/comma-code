@@ -1,7 +1,18 @@
-# comma-code
-Working with strings - Exercise 1
+# Comma-Separated List Formatter
 
-Say you have a list value like this:
+This is a simple Python script that interactively collects items from the user and prints them in a properly formatted, human-readable list.
 
-spam = ['apples', 'bananas', 'tofu', 'cats']
-Write a function that takes a list value as an argument and returns a string with all the items separated by a comma and a space, with and inserted before the last item. For example, passing the previous spam list to the function would return 'apples, bananas, tofu, and cats'. But your function should be able to work with any list value passed to it. Be sure to test the case where an empty list [] is passed to your function.
+## ✨ Features
+- Collects items one by one until you press **Enter** with no input.
+- Formats the list into a natural English style:
+  - `["apples", "bananas", "cherries"]` → **"apples, bananas and cherries"**
+- Logs execution details to `commaLog.txt`.
+
+## 🛠️ Requirements
+- Python 3.8 or higher (no external dependencies).
+
+## 🚀 Usage
+Run the script in a terminal:
+
+```bash
+python comma_list.py
